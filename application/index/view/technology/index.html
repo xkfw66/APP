@@ -1,0 +1,36 @@
+{extend name="base"}
+{block  name="content"}
+<div class="centBox">
+    <div class="neiye clearfix">
+       {include file="public/left"/}
+        <div class="neiyeR">
+            <div class="neiBT">
+                <span class="mianT_span">技术支持 | TECHNOLOGY</span>
+            </div>
+            <div class="feedbck">
+                 {foreach name='field' key='key' item='vo'}
+                <div class="newsxx">
+                  {$vo['title']}<br />{$vo['content']}
+<br />
+
+         {/foreach}
+                </div>
+      <div class="feiye">
+                        <ul>
+                            <li><input type="submit" value="确定" class="feiye_ban" />
+                            <li>到第<input name="" type="text" class="feiye_ingp" />页</li>
+                            <li><a href="#">下一页</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#" class="xuanz">1</a></li>
+                            <li><a href="#" class="feiye_hs">上一页</a></li>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

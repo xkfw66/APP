@@ -1,0 +1,464 @@
+[ 2017-07-07T12:08:31+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：0.167009s][吞吐率：5.99req/s] [内存消耗：1,848.19kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'qqmp'[E:\phpStudy\WWW\APP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-07-07T12:08:39+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,848.41kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'qqmp'[E:\phpStudy\WWW\APP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-07-07T12:08:39+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：1,848.41kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'qqmp'[E:\phpStudy\WWW\APP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-07-07T12:45:58+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：1.847106s][吞吐率：0.54req/s] [内存消耗：1,848.33kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'qqmp'[E:\phpStudy\WWW\APP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-07-07T12:47:00+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,848.20kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'qqmp'[E:\phpStudy\WWW\APP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-07-07T12:47:04+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,848.41kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'qqmp'[E:\phpStudy\WWW\APP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-07-07T12:47:29+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：1,848.20kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'qqmp'[E:\phpStudy\WWW\APP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-07-07T12:50:31+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：0.299017s][吞吐率：3.34req/s] [内存消耗：2,112.87kb] [文件加载：60]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\WWW\APP\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_about` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_about` [ RunTime:0.000000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_nav` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_nav` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T16:36:12+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/
+[ log ] 127.0.0.1/APP/public/ [运行时间：0.134008s][吞吐率：7.46req/s] [内存消耗：1,969.56kb] [文件加载：58]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\WWW\APP\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030002s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_about` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_about` [ RunTime:0.000000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_nav` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_nav` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T16:36:22+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/index.php
+[ log ] 127.0.0.1/APP/public/index.php [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：1,969.54kb] [文件加载：58]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\WWW\APP\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_about` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_about` [ RunTime:0.000000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_nav` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_nav` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T16:37:33+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/index
+[ log ] 127.0.0.1/APP/public/index [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,972.59kb] [文件加载：58]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\WWW\APP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\WWW\APP\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_about` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_about` [ RunTime:0.000000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_nav` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_nav` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T16:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /APP/public/index/product/index.html
+[ log ] 127.0.0.1/APP/public/index/product/index.html [运行时间：0.103005s][吞吐率：9.71req/s] [内存消耗：2,130.91kb] [文件加载：60]
+[ info ] [ LANG ] E:\phpStudy\WWW\APP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=d7em88vm04fg1f4aiurv9co194; Hm_lvt_080836300300be57b7f34f4b3e97d911=1499330648; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1499330648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/APP/public/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Product->index[ E:\phpStudy\WWW\APP\application\index\controller\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\WWW\APP\public/../application/index\view\product\index.html [ array (
+  0 => 'nav',
+  1 => 'subnav',
+  2 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_introduction` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_introduction` [ RunTime:0.010000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_nav` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_nav` [ RunTime:0.000000s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=qqmp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sw_subnav` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `sw_subnav` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------

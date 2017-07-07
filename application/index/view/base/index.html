@@ -1,0 +1,19 @@
+{extend name="base"}
+{block name="content"}
+<div class="centBox">
+    <div class="neiye clearfix">
+      {include file="public/left"/}
+        <div class="neiyeR">
+            <div class="neiBT">
+                <span class="mianT_span">生产基地 | BASE</span>
+            </div>
+            <div class="base clearfix">
+            {foreach name='field' key='key' item='vo'}
+                <img src="{$vo['image']}" alt="" width="400px" />
+                
+               {/foreach}
+          </div>
+        </div>
+    </div>
+</div>
+{/block}

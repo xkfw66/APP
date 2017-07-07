@@ -1,0 +1,22 @@
+{extend name="base"}
+{block name="content"}
+<div class="centBox">
+    <div class="neiye clearfix">
+   {include file="public/left"/}
+        <div class="neiyeR">
+            <div class="neiBT">
+                <span class="mianT_span">合作社介绍 | INTRODUCTION</span>
+            </div>
+                <div class="feedbck">
+                <div class="newsxx">
+                    {foreach name='field' key='key' item='vo'}
+                    {$vo['title']}<br />
+                    {$vo['content']}<br />
+                        
+                 {/foreach}
+                   </div>
+          </div>
+        </div>
+    </div>
+</div>
+{/block}

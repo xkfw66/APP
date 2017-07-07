@@ -1,0 +1,111 @@
+{extend name="base"}
+{block name="content"}
+
+<div class="centBox">
+    <div class="neiye clearfix">
+        <div class="neiyeL">
+            <div class="banL noel">
+                 <div class="yuyue">
+                    <p><a href="#"><img src="__STATIC__/home/text/1.gif" width="232" height="213" alt="" />
+                     中江瓜蒌</a></p>
+                    <p><a href="#" class="yuyue_a"></a></p>
+                </div>
+            </div>
+            <div class="hezuo">
+            <div class="hezuo_top">推荐合作单位</div>
+                <div class="hezuo_text">
+                    <ul>
+                        <li><a href="#"><img src="__STATIC__/home/text/9.gif" width="206" height="60" alt="" /></a></li>
+                        <li><a href="#"><img src="__STATIC__/home/text/10.gif" width="206" height="60" alt="" /></a></li>
+                        <li><a href="#"><img src="__STATIC__/home/text/11.gif" width="206" height="60" alt="" /></a></li>
+                        <li><a href="#"><img src="__STATIC__/home/text/12.gif" width="206" height="60" alt="" /></a></li>
+                        <li><a href="#"><img src="__STATIC__/home/text/13.gif" width="206" height="60" alt="" /></a></li>
+                    </ul>
+                </div>
+          </div>
+        </div>
+        <div class="neiyeR">
+            <div class="neiBT">
+                <span class="mianT_span">留言反馈 | FEEDBACK </span>
+            </div>
+            <div class="feedbck">
+            <form class="form form-horizontal" name="forma" id="form-article-add" method="post" action="{:url('message_add')}">
+                <div class="feedb_top">
+                    <div class="feedb_bate">
+                        <table width="200" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="44" class="feedb_td">联系人：</td>
+    <td><input name="name" type="text" class="feedb_input" /><span class="feedb_span">*</span></td>
+  </tr>
+  <tr>
+    <td height="44" class="feedb_td">联系电话：</td>
+    <td><input name="phoneNum" type="text" id="phoneNum" class="feedb_input"/><span class="feedb_span">*</span></td>
+  </tr>
+  <tr>
+    <td class="feedb_td">内容：</td>
+    <td><textarea name="message" cols="" rows="" class="feedb_tarea"></textarea></td>
+  </tr>
+</table>
+
+                    </div>
+                    <div class="feedb_tetx">
+                        <input type="submit" class="feedb_annl" value="提交" />
+                    </div>
+                </div>
+                 </form>
+                <div class="feed_deta">
+                {foreach name='field' key='key' item='vo'}
+                    <div class="feed_xia">
+                  
+                      <div class="feBt">
+                            <p class="cb4">{$vo['create_time'] | date('Y-m-d h:m:i') ###}</p>
+                            <p>{$vo['message']}</p>
+                      </div>
+                      
+                        <div class="feed_xtex">
+                                {$vo['reply']}                 
+                           </div>
+                    </div>
+                      {/foreach}
+                </div>
+                <div class="feiye">
+                        <ul>
+                            <li><input type="submit" value="确定" class="feiye_ban" />
+                            <li>到第<input name="" type="text" class="feiye_ingp" />页</li>
+                            <li><a href="#">下一页</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#" class="xuanz">1</a></li>
+                            <li><a href="#" class="feiye_hs">上一页</a></li>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<script type="text/javascript" src="__STATIC__/admin/lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$('#phoneNum').change(function(){
+  var chineseReg = /^[\u4E00-\u9FA5]{2,4}$/;
+ 
+  if(!chineseReg.test(document.forma.name.value)) {
+      alert('请填写中文2到4个字!!');
+      document.forma.name.focus();
+      return false;
+  }
+  var phoneNumReg = /(^[0-9]{3,4}\-[0-9]{7}$)|(^[0-9]{7}$)|(^[0-9]{3,4}[0-9]{7}$)|(^0{0,1}13[0-9]{9}$)/
+  if(!phoneNumReg.test(document.forma.phoneNum.value)) {
+      alert('请填写正确电话号码!!');
+      document.forma.phoneNum.focus();
+      return false;
+  }
+  return true;
+
+});
+
+
+</script>
+{/block}

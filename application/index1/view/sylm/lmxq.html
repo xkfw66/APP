@@ -1,0 +1,89 @@
+{extend name="base"/}
+{block name="content"}
+<div id="main">
+    <div class="container">
+        <section id="blog">
+            <div class="hgroup">
+                <h1>商业联盟</h1>
+
+                <h2>共同发展，致力长远。单打独斗的时代已经过去，相互合作才是未来的生存方式。</h2>
+                <ul class="breadcrumb pull-right">
+                    <li><a href="index.html">首页</a> <span class="divider">/</span></li>
+                    <li><a href="{:url('index')}">商业联盟</a> <span class="divider">/</span></li>
+                    <li><a href="{:url('sylm/lmlist')}">特约商户</a> <span class="divider">/</span></li>
+                    <li class="active">商户详情</li>
+                </ul>
+            </div>
+            <div class="row">
+                <div id="leftcol" class="span7">
+                    <section id="portfolio_slider_wrapper">
+                        <div class="flexslider" id="portfolio_slider">
+                            <ul class="slides">
+                                <li class="item" style="background-image: url(__STATIC__/home/images/xinqianshanghu/shanghu1.jpg);height: 403px;"></li>
+                                <li class="item" style="background-image: url(__STATIC__/home/images/xinqianshanghu/shanghu2.jpg);height: 403px;"></li>
+                                <li class="item" style="background-image: url(__STATIC__/home/images/xinqianshanghu/shanghu3.png);height: 403px;"></li>
+                                <li class="item" style="background-image: url(__STATIC__/home/images/xinqianshanghu/shanghu2.jpg);height: 403px;"></li>
+                                <li class="item" style="background-image: url(__STATIC__/home/images/xinqianshanghu/shanghu1.jpg);height: 403px;"></li>
+                                <li class="item" style="background-image: url(__STATIC__/home/images/xinqianshanghu/shanghu3.png);height: 403px;"></li>
+                            </ul>
+                        </div>
+                        <div id="carousel" class="flexslider">
+                            <ul class="slides">
+                                <li> <img src="__STATIC__/home/images/xinqianshanghu/shanghu1.jpg" alt="" /> </li>
+                                <li> <img src="__STATIC__/home/images/xinqianshanghu/shanghu2.jpg" alt="" /> </li>
+                                <li> <img src="__STATIC__/home/images/xinqianshanghu/shanghu3.png" alt="" /> </li>
+                                <li> <img src="__STATIC__/home/images/xinqianshanghu/shanghu2.jpg" alt="" /> </li>
+                                <li> <img src="__STATIC__/home/images/xinqianshanghu/shanghu1.jpg" alt="" /> </li>
+                                <li> <img src="__STATIC__/home/images/xinqianshanghu/shanghu3.png" alt="" /> </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--<div class="pagination pagination-centered">
+                         <ul>
+                              <li class="disabled"><a href="#">«</a></li>
+                              <li class="active"><a href="#">qq</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li><a href="#">»</a></li>
+                         </ul>
+                    </div>-->
+                </div>
+                <div id="sidebar" class="span5">
+                    <article style="margin-top: 10px;">
+                        <div class="row">
+                            <div class=" well border-box">
+                                <!--<p><strong>商家名称:</strong> 四川中博道禾健康管理有限公司</p>-->
+                                <h3 style="color:#0085C8;">四川中博道禾健康管理有限公司</h3>
+                                <div id="cpxq">
+                                    <p style="text-indent: 0;"><strong>商家特色:</strong> </p>
+                                    <p style="text-indent: 0;"><strong>商家类型:</strong> 健康服务业</p>
+                                    <p style="text-indent: 0;"><strong>商家地址:</strong> 成都市高新区益州大道北388号8栋1单元2层202号</p>
+                                    <p style="text-indent: 0;"><strong>经营项目:</strong> 健康服务</p>
+                                    <p style="text-indent: 0;"><strong>联系电话:</strong> 13548161348</p>
+                                    <p style="text-indent: 0;"><strong>优惠项目:</strong> ¥<b style="color: #fd983c;font-size: 28px;">1980</b>/ 人起 <s style="color: #b8b8b8;">¥2085</s></p>
+                                    <p style="text-indent: 0;"><strong>用户评价:</strong> xxxxxxxxxxxx</p>
+                                    <p style="text-indent: 0;"><strong>产品经理推荐:</strong><br/>
+                                        ★ 海景套房哦、 住海边哦、满足了您对普吉的所有想法！<br/>
+                                        ★ 任性包机直飞，专车接往普吉岛酒店休息！<br/>
+                                        ★ 轻松出行，老少皆宜！睡到自然醒，拒绝舟车劳顿！
+                                    </p>
+                                </div>
+                            </div>
+                            <!--<div class="span8">-->
+                            <!--<p style="text-indent: 0;"><strong>用户评价</strong></p>-->
+                            <textarea rows="2" class="span5" style="float:right;" placeholder="请输入您的评价..."></textarea>
+                            <!--</div>-->
+                            <form method="post" action="#">
+                                <a class="btn btn-large btn-success" style="float: right;"><span>提交评价</span></a>
+                            </form>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </div>
+{/block}

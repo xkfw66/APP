@@ -1,0 +1,23 @@
+{extend name="base"}
+{block  name="content"}
+<div class="centBox">
+    <div class="neiye clearfix">
+      {include file="public/left"/}
+        <div class="neiyeR">
+            <div class="neiBT">
+                <span class="mianT_span">致富故事 | BECOME RICH</span>
+            </div>
+         <div class="rich clearfix">
+                <p><img src="__STATIC__/home/text/21.gif" alt="" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                江县童游街道水尾村赤坭土布自然村人口不到100人，却有个不平凡的致富能手，他叫曹宗成，今年53岁。</p>
+                <p>　　</p>
+                 {foreach name='field' key='key' item='vo'}
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$vo['title']} </p>
+            {/foreach}
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

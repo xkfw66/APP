@@ -1,0 +1,19 @@
+{extend name="base"}
+{block  name="content"}
+<div class="centBox">
+    <div class="neiye clearfix">
+      {include file="public/left"/}
+        <div class="neiyeR">
+            <div class="neiBT">
+                <span class="mianT_span">行业前景 | OUTLOOK</span>
+            </div>
+             {foreach name='field' key='key' item='vo'}
+            <div class="outlook clearfix">
+                <img src="{$vo['image']}" width="200px"; />
+              {$vo['title']}
+                      </div>
+                {/foreach}
+      </div>
+    </div>
+</div>
+{/block}

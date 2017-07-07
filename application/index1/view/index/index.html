@@ -1,0 +1,103 @@
+{extend name="base"/}
+{block name="content"}
+<section id="slider_wrapper">
+     <div id="main_flexslider" class="flexslider">
+          <ul class="slides">
+               <li class="item" style="background-image: url(__STATIC__/home/images/banner2.jpg)">
+                    <div class="container">
+                         <div class="carousel-caption">
+                              <h1>以名品打造品牌<br/>&nbsp;&nbsp;&nbsp;以品牌创造未来</h1>
+                              <p class="lead inverse">精选全球上百个国家的名品向全球数亿民众推广和传播，只有严苛标准、精益求精的名品才能打造全球名品客户至上的品牌诉求，才能创造全球名品阳光的未来！
+                              </p>
+                              <!--<span class="round_badge"><strong>NEW</strong>version<strong>qq.qq</strong></span>-->
+                         </div>
+                    </div>
+               </li>
+               <li class="item" style="background-image: url(__STATIC__/home/images/banner1.jpg)">
+                    <div class="container">
+                         <div class="carousel-caption">
+                              <h1>量子科技集结号<br/>&nbsp;&nbsp;&nbsp;吹响健康乐生活</h1>
+                              <p class="lead inverse">国际顶尖量子科技专家、顶尖量子产品制造厂家同全球名品合作，交流研讨量子信息技术最新进展和未来发展趋势,探讨产业化方向，一幅量子时代的美好蓝图正徐徐展开。
+                              </p>
+                         </div>
+                    </div>
+               </li>
+               <li class="item" style="background-image: url(__STATIC__/home/images/banner3.jpg)">
+                    <div class="container">
+                         <div class="carousel-caption">
+                              <h1>给电子商务加一双<br/>&nbsp;&nbsp;&nbsp;“互联网+”的翅膀来驰骋疆场</h1>
+                              <p class="lead inverse">“互联网+”行动计划重点促进互联网和传统行业的融合创新，“互联网+”电子商务被作为重点促进方向，成为新的增长点，为大众创业、万众创新提供环境，促进国民经济提质增效升级。
+                              </p>
+                         </div>
+                    </div>
+               </li>
+          </ul>
+     </div>
+</section>
+<div id="main">
+     <div class="container">
+          <section class="call_to_action">
+               <!--<h3>focus on what’s important</h3>-->
+               <!--<h4>and  make the web a little bit  prettier</h4>-->
+               <!--<a class="btn btn-primary btn-large" href="http://www.cssmoban.com/">Buy this theme!</a> -->
+          </section>
+          <section id="features_teasers_wrapper">
+               <div class="row">
+                    <div class="span4 feature_teaser"><a href="{:url('index/sunshine')}"> <img alt="responsive" src="__STATIC__/home/images/shenghuoguan.png" />
+                         <h3>阳光生活馆</h3></a>
+                         <p style="text-align: left;">全球名品·阳光生活馆是由四川全球名品电子商务股份有限公司授权四川全球阳光实业开发有限公司特别设立的一个集众多联盟商家、社会各界精英为一体的多层次生活馆。生活馆分为家庭级、社区级、区县级、市级、省级五类，除省级由公司直营，其余均可加盟。</p>
+                    </div>
+                    <div class="span4 feature_teaser"><a href="{:url('index/xiangmu')}"> <img alt="responsive" src="__STATIC__/home/images/dianshang.png" />
+                         <h3>全球消费异业联盟</h3></a>
+                         <p style="text-align: left;">全球消费异业联盟是由全球阳光集团发起设立的集商家、厂家、消费者及经销商、代理商为一体的综合性异业联盟平台。联盟业务涵盖电子商务、文化传播、餐饮娱乐、养生旅游、连锁超市、房产置业、文化教育、股权基金等多个领域。
+                         </p>
+                    </div>
+                    <div class="span4 feature_teaser"><a href="{:url('index/lzkj')}"> <img alt="responsive" src="__STATIC__/home/images/weishang.png" />
+                         <h3>量子科技</h3></a>
+                         <p style="text-align: left;">全球名品精选的量子系列产品均采用国内外最顶尖的量子高科技技术,植入多个行业尖端技术，保持生态、环保、优质、科技含量重等特点，给予人体大自然的能量，调节人体顺时针平衡，改善人体自愈能力，养护人身三宝：精、气、神，使生命活动和谐有序。</p>
+                    </div>
+               </div>
+          </section>
+          <section id="portfolio_teasers_wrapper">
+               <h2 class="section_header">产品简介</h2>
+               <div class="portfolio_strict row">
+                    <div class="portfolio_item span3">
+                         <div class="portfolio_photo" style="background-image:url(
+                         	__STATIC__/home/images/portfolio/chanpin1.jpg)"> <a href="{:url('index/changpingxiangqing')}"> <img src="__STATIC__/home/images/chanpin.png" style="margin-top: 50px;"/>
+                              <p>促进细胞新陈代谢、增强免疫力、抗衰老...</p>
+                         </a> </div>
+                         <div class="portfolio_description">
+                              <h3><a href="{:url('index/changpingxiangqing')}">美酵主SOD酵素</a></h3>
+                              <!--<p>artists</p>-->
+                         </div>
+                    </div>
+                    <div class="portfolio_item span3">
+                         <div class="portfolio_photo" style="background-image:url(__STATIC__/home/images/portfolio/chanpin2.jpg)"> <a href="{:url('index/changpingxiangqing')}"> <img src="__STATIC__/home/images/chanpin.png" style="margin-top: 50px;"/>
+                              <p>净化空气、解决辐射源、可自行释放大量负离子、中和降解空气中的有害物质...</p>
+                         </a> </div>
+                         <div class="portfolio_description">
+                              <h3><a href="{:url('index/changpingxiangqing')}">权能量子权能家宝</a></h3>
+                         </div>
+                    </div>
+                    <div class="portfolio_item span3">
+                         <div class="portfolio_photo" style="background-image:url(__STATIC__/home/images/portfolio/chanpin3.jpg)"> <a href="{:url('index/changpingxiangqing')}"> <img src="__STATIC__/home/images/chanpin.png" style="margin-top: 50px;"/>
+                              <p>改善自来水PH值、弱碱水，改善人体内酸碱度，消减自由基，改善人体亚健康状态...</p>
+                         </a> </div>
+                         <div class="portfolio_description">
+                              <h3><a href="{:url('index/changpingxiangqing')}">权能量子龙头宝</a></h3>
+                         </div>
+                    </div>
+                    <div class="portfolio_item span3">
+                         <div class="portfolio_photo" style="background-image:url(__STATIC__/home/images/portfolio/chanpin4.jpg)"> <a href="{:url('index/changpingxiangqing')}"> <img src="__STATIC__/home/images/chanpin.png" style="margin-top: 50px;"/>
+                              <p>富氢水中含有丰富的氢分子，经饮用进入人体后被体内的氢分解为氢原子即活性氢，与人体的活性氧发生还原反应，生成人体最需要最无害的水...</p>
+                         </a> </div>
+                         <div class="portfolio_description">
+                              <h3><a href="{:url('index/changpingxiangqing')}">权能量子富氢水机</a></h3>
+                         </div>
+                    </div>
+                    <a href="{:url('showlist/index')}" class="btn btn-primary" style="float: right">查看更多</a>
+               </div>
+          </section>
+     </div>
+
+{/block}

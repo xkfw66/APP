@@ -1,0 +1,71 @@
+{extend name="base"}
+{block name="content"}
+<div class="centBox">
+    <div class="neiye clearfix">
+        <div class="neiyeL">
+            <div class="banL noel">
+                 <div class="yuyue">
+                    <p><a href="#"><img src="__STATIC__/home/text/1.gif" width="232" height="213" alt="" />
+                     中江瓜蒌</a></p>
+                    <p><a href="#" class="yuyue_a"></a></p>
+                </div>
+            </div>
+            <div class="hezuo">
+            <div class="hezuo_top">推荐合作单位</div>
+                <div class="hezuo_text">
+                    <ul>
+                        <li><a href="#"><img src="__STATIC__/home/text/9.gif" width="206" height="60" alt="" /></a></li>
+                        <li><a href="#"><img src="__STATIC__/home/text/10.gif" width="206" height="60" alt="" /></a></li>
+                        <li><a href="#"><img src="__STATIC__/home/text/11.gif" width="206" height="60" alt="" /></a></li>
+                        <li><a href="#"><img src="__STATIC__/home/text/12.gif" width="206" height="60" alt="" /></a></li>
+                        <li><a href="#"><img src="__STATIC__/home/text/13.gif" width="206" height="60" alt="" /></a></li>
+                    </ul>
+                </div>
+          </div>
+        </div>
+        <div class="neiyeR">
+            <div class="neiBT">
+                <span class="mianT_span">行业信息 | INFORMATION </span>
+            </div>
+            <div class="neiText">
+                <div class="neiIfino">
+                    <ul>
+                        <li class="neiNt l">全部分类</li>
+                        <li class="r"><a href="#">其他</a></li>
+                        <li class="r"><a href="#">特产类</a>|</li>
+                        <li class="r"><a href="#">蔬果类</a>|</li>
+                        <li class="r"><a href="#">养殖类</a>|</li>
+                        <li class="r"><a href="#">农机械类</a>|</li>
+                        <li class="r"><a href="#" class="xuanz">农作物类</a>|</li> 
+                    </ul>
+                </div>
+                <div class="tuwenli clearfix">
+                    <ul>
+                    {foreach name='field' key='key' item='vo'}
+                        <li>
+                        <p><a href="#"><img src="{$vo['image']}" width="208" height="177" alt="" /> {$vo['title']}</a></p>
+                        <p><a href="#" class="yuyue_a"></a></p>
+                    </li>
+                    {/foreach}
+                    </ul>
+                </div>  
+                <div class="feiye">
+                        <ul>
+                            <li><input type="submit" value="确定" class="feiye_ban" />
+                            <li>到第<input name="" type="text" class="feiye_ingp" />页</li>
+                            <li><a href="#">下一页</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#" class="xuanz">1</a></li>
+                            <li><a href="#" class="feiye_hs">上一页</a></li>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div> 
+</div>
+
+{/block}

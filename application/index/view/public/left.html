@@ -1,0 +1,21 @@
+  <div class="neiyeL">
+            <div class="banL noel">
+                <div class="lanmu">
+                      <ul>
+           {foreach name="subnav" item= "vo"}
+    <li><a href="{:url($vo['url'] ,['id'=>$vo['id']])}" {if condition="input('param.id')==$vo['id']"} class="xuanz"{/if}>{$vo.name}</a></li>
+            {/foreach}
+              
+            </ul>
+                </div>
+            </div>
+            <div class="dianhua">
+                <div class="dianhua_top">联系电话</div>
+                <div class="dianhua_text">
+                    联  系  人：陈波 （总裁） <br />
+                    电       话 ：86 0838 7102727<br />
+                    移动电话 ：	138-8180-1576<br />
+                    传       真 ：86 0838 7102771<br />
+                    地       址 ：	中国 四川 德阳市四川省德阳市中江县双龙镇                </div>
+            </div>
+        </div>

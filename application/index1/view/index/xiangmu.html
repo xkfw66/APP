@@ -1,0 +1,109 @@
+{extend name="base"/}
+{block name="content"}
+<script src="__STATIC__/home/js/jquery-1.9.0.min.js"></script>
+<script>
+    $(function(){
+        $('#close_im').bind('click',function(){
+            $('#main-im').css("height","0");
+            $('#im_main').hide();
+            $('#open_im').show();
+        });
+        $('#open_im').bind('click',function(e){
+            $('#main-im').css("height","272");
+            $('#im_main').show();
+            $(this).hide();
+        });
+        $('.go-top').bind('click',function(){
+            $(window).scrollTop(0);
+        });
+        $(".weixing-container").bind('mouseenter',function(){
+            $('.weixing-show').show();
+        })
+        $(".weixing-container").bind('mouseleave',function(){
+            $('.weixing-show').hide();
+        });
+    });
+</script>
+
+<section id="slider_wrapper">
+    <div id="main_flexslider" class="flexslider">
+        <ul class="slides">
+            <li class="item" style="background-image: url(__STATIC__/home/images/banner2.jpg)">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>以名品打造品牌<br/>&nbsp;&nbsp;&nbsp;以品牌创造未来</h1>
+                        <p class="lead inverse">精选全球上百个国家的名品向全球数亿民众推广和传播，只有严苛标准、精益求精的名品才能打造全球名品客户至上的品牌诉求，才能创造全球名品阳光的未来！
+                        </p>
+                        <!--<span class="round_badge"><strong>NEW</strong>version<strong>qq.qq</strong></span>-->
+                    </div>
+                </div>
+            </li>
+            <li class="item" style="background-image: url(__STATIC__/home/images/banner1.jpg)">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>量子科技集结号<br/>&nbsp;&nbsp;&nbsp;吹响健康乐生活</h1>
+                        <p class="lead inverse">国际顶尖量子科技专家、顶尖量子产品制造厂家同全球名品合作，交流研讨量子信息技术最新进展和未来发展趋势,探讨产业化方向，一幅量子时代的美好蓝图正徐徐展开。
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="item" style="background-image: url(__STATIC__/home/images/banner3.jpg)">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>给电子商务加一双<br/>&nbsp;&nbsp;&nbsp;“互联网+”的翅膀来驰骋疆场</h1>
+                        <p class="lead inverse">“互联网+”行动计划重点促进互联网和传统行业的融合创新，“互联网+”电子商务被作为重点促进方向，成为新的增长点，为大众创业、万众创新提供环境，促进国民经济提质增效升级。
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<div id="main">
+    <div class="container">
+        <div class="hgroup">
+            <h1>旗下项目</h1>
+            <h2>We are a group of people who dream, the dream is the sun.</h2>
+            <ul class="breadcrumb pull-right">
+                <li><a href="index.html">首页</a> <span class="divider">/</span></li>
+                <li class="active">旗下项目</li>
+            </ul>
+        </div>
+        <section id="portfolio_teasers_wrapper">
+            <div class="row">
+                <div class="span12">
+                    <div class="bs-docs-example">
+                        <ul class="nav nav-tabs" id="myTab">
+                            <li class="active"><a data-toggle="tab" href="#home">阳光生活馆</a></li>
+                            <li><a data-toggle="tab" href="#profile">全球消费异业联盟</a></li>
+                            <li><a data-toggle="tab" href="#dropdown1">量子科技</a></li>
+
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div id="home" class="tab-pane fade in active">
+                                <p>全球名品·阳光生活馆是由四川全球名品电子商务股份有限公司授权四川全球阳光实业开发有限公司特别设立的一个集众多联盟商家、社会各界精英为一体的多层次生活馆。生活馆分为家庭级、社区级、区县级、市级、省级五类，除省级由公司直营，其余均可加盟。</p>
+                                <p>生活馆种类：</p>
+                                <p>量子生活馆、国医医药生活馆、美容美体馆</p>
+                                <p>日用品生活馆、健身生活馆、有机食品生活馆</p>
+                                <p>品茗生活馆、炭竹服装生活馆、养生堂</p>
+                            </div>
+                            <div id="profile" class="tab-pane fade">
+                                <p>全球消费异业联盟是由全球阳光集团发起设立的集商家、厂家、消费者及经销商、代理商为一体的综合性异业联盟平台。联盟总部设于杭州，在全国各省设分支机构。联盟业务涵盖电子商务、文化传播、餐饮娱乐、养生旅游、连锁超市、房产置业、文化教育、股权基金等多个领域，并设立综合性服务中心，通过聚合优势互补资源，创建国际阳光系统，打造商务联盟平台，共创多种盈利模式。</p>
+                                <p>联盟授权全球阳光会馆对其联盟业务和会员实行全方位管理与服务，下设省、市管理中心及区县代理商，分区域拓展业务、发展消费商、特约商户。</p>
+                                <p>联盟秉承“为民服务、实业报国”的经营理念，运用联盟丰富的人脉资源、信息资源以及具有前瞻性的营销策略，创建多方盈利的全球消费异业联盟系统，采用代理制、会员互动制、矩阵制、排序制（非常10+1）、分盘制、激励制、积分制、签约制、股权制等30多种激励机制，为企业家和消费者提供优质商务服务，助力企业走向国际，实现联盟和企业跨越式发展。</p>
+                            </div>
+                            <div id="dropdown1" class="tab-pane fade">
+                                <p>一个物理量如果有最小的单元而不可连续的分割，就说这个物理量是量子化的，我们把最小的单元称为量子。它能在与水接触的一瞬间迅速捕捉空气及水中的游离电子，释放出强大的磁化能量波和负氢离子，形成内聚力强、分子间吸附力小且具有活性的小分子团水。</p>
+                                <p>这种小分子团水可以迅速调整失衡细胞的振动频率，能够有效激活人体酶系统，恢复细胞正常运动，促进人体自身的解毒和排毒，提高人体自身的免疫系统。而负氢离子则具有去除自由基、增强生命动能（ATP）的功能。它是宇宙中最小、最强的抗氧化的物质，能促进营养物质的吸收和代谢、细胞内补水。能作用于线粒体DNA，修复受损的片段。</p>
+                                <p>追求健康，先需求己，就是要求助人体与生俱来的“自愈本能”。全球名品精选的量子系列产品均采用国内外最顶尖的量子高科技技术,植入多个行业尖端技术，保持生态、环保、优质、科技含量重等特点，给予人体大自然的能量，调节人体顺时针平衡，改善人体自愈能力，养护人身三宝：精、气、神，使生命活动和谐有序。</p>
+                                <p>量子正在以“物理改变化学”的原理改变科技发展过程中所遗留的问题，以“科学改变未来”的神奇颠覆我们的生活。</p>
+
+                                <p>全球名品现售量子产品：权能量子权能家宝、权能量子龙头宝、权能量子富氢发生器、权能量子护视镜、权能量子佛珠、权能量子水专家、权能量子芯片卡、权能量子补钙仪······</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{/block}
